@@ -672,8 +672,41 @@ transform: scale(1.05);
     }
     .copyright{
         padding-top: 230px;
-
     }
+    .logos img, .album-covers img{
+        width: 300px;
+        height: 220px;
+        object-fit: cover;
+    }
+    .posters .guardin img{
+        width: 300px;
+        height: 220px;
+        object-fit: scale-down;
+    }
+        .posters img{
+        width: 300px;
+        height: 220px;
+        object-fit: scale-down;
+    }
+    .portfolio-item a{
+        margin: 0;
+    }
+    .portfolio .portfolio-item{
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .mockup img{
+        width: 300px;
+        height: 220px;
+        object-fit: cover;
+    }
+    .mockup{
+        align-items: center;
+    }
+    .portfolio-page .portfolio-item img{
+        height: 200px;
+    }
+    
 }
 
 
